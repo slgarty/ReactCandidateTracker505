@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateTracker.Web", "CandidateTracker.Web\CandidateTracker.Web.csproj", "{D12EC749-9B9C-4834-92DF-D9657C33500D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateTracker.Data", "CandidateTracker.Data\CandidateTracker.Data.csproj", "{BDC7CCF2-31E2-4512-B1EC-0B00D046B0D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D12EC749-9B9C-4834-92DF-D9657C33500D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12EC749-9B9C-4834-92DF-D9657C33500D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12EC749-9B9C-4834-92DF-D9657C33500D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12EC749-9B9C-4834-92DF-D9657C33500D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC7CCF2-31E2-4512-B1EC-0B00D046B0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC7CCF2-31E2-4512-B1EC-0B00D046B0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC7CCF2-31E2-4512-B1EC-0B00D046B0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC7CCF2-31E2-4512-B1EC-0B00D046B0D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72D729CD-AC42-4BD9-B827-DC11746CC9B7}
+	EndGlobalSection
+EndGlobal
