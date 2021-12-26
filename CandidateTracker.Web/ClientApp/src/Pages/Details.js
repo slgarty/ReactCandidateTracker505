@@ -29,6 +29,7 @@ const Details = () => {
         ctx.updateCounts();
         history.push("/");
     };
+    const { firstName, lastName, email, phoneNumber, notes } = candidate;
 
     return (
 
@@ -36,11 +37,11 @@ const Details = () => {
             <div className="row">
                 <div className="col-md-6 offset-md-3">
                     <div className="card card-body bg-light">
-                        <h4>Name: Me Myself</h4>
-                        <h4>Email: Me@myself.me</h4>
-                        <h4>Phone: 123-456-7890</h4>
+                        <h4>Name: {firstName} {lastName}</h4>
+                        <h4>Email: {email}</h4>
+                        <h4>Phone: {phoneNumber}</h4>
                         <h4>Status: Pending</h4>
-                        <h4>Notes:</h4>
+                        <h4>Notes: {notes}</h4>
                         <p></p>
                         <div><button className="btn btn-primary" onClick={onButtonClick} name='confirmed' > Confirm</button>
                             <button class="btn btn-danger" onClick={onButtonClick} name='refused' >Refuse</button>
