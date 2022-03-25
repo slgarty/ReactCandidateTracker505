@@ -11,7 +11,8 @@ Run the following prompts on the command line to set up the database
 dotnet ef migrations add initial
 dotnet ef database update
 ```
-```sh
+
 Run the following prompts on the command line to build and run the project
+```sh
 dotnet watch run
 ```
